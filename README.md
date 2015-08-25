@@ -2,6 +2,9 @@
 
 ## img.ly SDK for iOS
 
+## this is the branch for Doppeltime ladies and germs (:
+
+
 img.ly SDK for iOS is a Cocoa Touch framework for creating stunning images with a nice selection of premium filters.
 
 ### Overview
