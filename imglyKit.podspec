@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
 	s.homepage         = "https://github.com/imgly/imgly-sdk-ios"
 	s.social_media_url = 'https://twitter.com/9elements'
 	s.authors          = { '9elements GmbH' => 'contact@9elements.com' }
-	s.source           = { :git => 'https://github.com/imgly/imgly-sdk-ios.git', :tag => s.version.to_s }
-
+	s.source           = { :git => 'https://github.com/doppeltime/imgly-sdk-ios.git', :tag => s.version.to_s }
+ 
 	s.ios.deployment_target = '8.0'
 	s.osx.deployment_target = '10.9'
 	
