@@ -23,6 +23,12 @@ class IMGLYImageCaptionCollectionViewCell: UICollectionViewCell {
         let label = UILabel()
         label.font = UIFont.systemFontOfSize(11)
         label.textColor = UIColor(white: 0.5, alpha: 1.0)
+        
+        label.textAlignment = NSTextAlignment.Center
+        
+//        label.backgroundColor = UIColor(red: 1, green: 0, blue: 0, alpha: 1)
+        label.numberOfLines = 0
+        
         label.setTranslatesAutoresizingMaskIntoConstraints(false)
         return label
         }()
