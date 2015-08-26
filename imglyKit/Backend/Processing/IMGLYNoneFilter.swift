@@ -23,7 +23,7 @@ public class IMGLYNoneFilter : IMGLYResponseFilter {
     
     init() {
         super.init(responseName: "None")
-        self.imgly_displayName = "None"
+        self.imgly_displayName = "None\n "
     }
     
     /// Returns a CIImage object that encapsulates the operations configured in the filter. (read-only)
