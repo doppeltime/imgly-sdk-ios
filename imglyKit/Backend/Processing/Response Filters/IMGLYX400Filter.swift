@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYX400Filter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "X400")
-        self.imgly_displayName = "X400"
+        self.imgly_displayName = "X400\n"
     }
     
     required public init(coder aDecoder: NSCoder) {

@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYTwilightFilter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "Twilight")
-        self.imgly_displayName = "Twilight"
+        self.imgly_displayName = "Twilight\n"
     }
     
     required public init(coder aDecoder: NSCoder) {

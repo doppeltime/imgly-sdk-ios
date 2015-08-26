@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYFoodFilter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "Food")
-        self.imgly_displayName = "Food"
+        self.imgly_displayName = "Food\n"
     }
     
     required public init(coder aDecoder: NSCoder) {

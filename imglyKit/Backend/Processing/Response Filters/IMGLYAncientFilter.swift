@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYAncientFilter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "Ancient")
-        self.imgly_displayName = "Ancient"
+        self.imgly_displayName = "Ancient\n"
     }
     
     required public init(coder aDecoder: NSCoder) {

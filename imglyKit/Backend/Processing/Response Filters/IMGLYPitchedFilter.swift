@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYPitchedFilter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "Pitched")
-        self.imgly_displayName = "Pitched"
+        self.imgly_displayName = "Pitched\n"
     }
     
     required public init(coder aDecoder: NSCoder) {

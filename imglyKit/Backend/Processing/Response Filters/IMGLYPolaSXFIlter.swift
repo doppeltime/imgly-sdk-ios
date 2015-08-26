@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYPolaSXFilter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "PolaSX")
-        self.imgly_displayName = "SX"
+        self.imgly_displayName = "SX\n"
     }
     
     required public init(coder aDecoder: NSCoder) {

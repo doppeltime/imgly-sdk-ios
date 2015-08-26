@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYK2Filter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "K2")
-        self.imgly_displayName = "K2"
+        self.imgly_displayName = "K2\n"
     }
     
     required public init(coder aDecoder: NSCoder) {

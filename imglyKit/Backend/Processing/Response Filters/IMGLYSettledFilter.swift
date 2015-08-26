@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYSettledFilter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "Settled")
-        self.imgly_displayName = "Settled"
+        self.imgly_displayName = "Settled\n"
     }
     
     required public init(coder aDecoder: NSCoder) {

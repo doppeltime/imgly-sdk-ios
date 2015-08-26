@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYSteelFilter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "Steel")
-        self.imgly_displayName = "Steel"
+        self.imgly_displayName = "Steel\n"
     }
     
     required public init(coder aDecoder: NSCoder) {

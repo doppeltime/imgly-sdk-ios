@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYAD1920Filter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "AD1920")
-        self.imgly_displayName = "AD1920"
+        self.imgly_displayName = "AD1920\n"
     }
     
     required public init(coder aDecoder: NSCoder) {

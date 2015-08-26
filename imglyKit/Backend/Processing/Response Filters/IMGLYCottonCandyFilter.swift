@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYCottonCandyFilter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "CottonCandy")
-        self.imgly_displayName = "Candy"
+        self.imgly_displayName = "Candy\n"
     }
     
     required public init(coder aDecoder: NSCoder) {

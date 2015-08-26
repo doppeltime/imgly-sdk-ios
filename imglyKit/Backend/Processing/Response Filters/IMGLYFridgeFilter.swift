@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYFridgeFilter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "Fridge")
-        self.imgly_displayName = "Fridge"
+        self.imgly_displayName = "Fridge\n"
     }
     
     required public init(coder aDecoder: NSCoder) {
@@ -24,3 +24,4 @@ public class IMGLYFridgeFilter: IMGLYResponseFilter {
         }
     }
 }
+  

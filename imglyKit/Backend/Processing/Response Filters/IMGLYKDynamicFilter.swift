@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYKDynamicFilter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "KDynamic")
-        self.imgly_displayName = "Dynamic"
+        self.imgly_displayName = "Dynamic\n"
     }
     
     required public init(coder aDecoder: NSCoder) {

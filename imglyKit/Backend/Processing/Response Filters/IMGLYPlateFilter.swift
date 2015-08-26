@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYPlateFilter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "Plate")
-        self.imgly_displayName = "Plate"
+        self.imgly_displayName = "Plate\n"
     }
     
     required public init(coder aDecoder: NSCoder) {

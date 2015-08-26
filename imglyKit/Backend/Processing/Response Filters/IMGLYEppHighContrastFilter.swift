@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYHighContrastFilter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "HighContrast")
-        self.imgly_displayName = "Hicon"
+        self.imgly_displayName = "Hicon\n"
     }
     
     required public init(coder aDecoder: NSCoder) {

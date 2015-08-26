@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYMono3200Filter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "Mono3200")
-        self.imgly_displayName = "Mono3200"
+        self.imgly_displayName = "Mono3200\n"
     }
     
     required public init(coder aDecoder: NSCoder) {

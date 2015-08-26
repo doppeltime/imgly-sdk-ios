@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYBreezeFilter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "Breeze")
-        self.imgly_displayName = "Breeze"
+        self.imgly_displayName = "Breeze\n"
     }
     
     required public init(coder aDecoder: NSCoder) {

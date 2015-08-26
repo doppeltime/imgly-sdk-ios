@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYLomoFilter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "Lomo")
-        self.imgly_displayName = "Lomo"
+        self.imgly_displayName = "Lomo\n"
     }
     
     required public init(coder aDecoder: NSCoder) {
