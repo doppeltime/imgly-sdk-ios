@@ -690,6 +690,10 @@ public class IMGLYCameraViewController: UIViewController {
         imagePicker.mediaTypes = [kUTTypeImage]
         imagePicker.allowsEditing = false
         
+//        imagePicker.navigationBar.tintColor = UIColor.whiteColor()  // Back buttons and such
+        imagePicker.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.whiteColor()]
+        imagePicker.navigationBar.barTintColor = UIColor(red: 1/225, green: 160/255, blue: 194/255, alpha: 1)
+
         self.presentViewController(imagePicker, animated: true, completion: nil)
     }
     
