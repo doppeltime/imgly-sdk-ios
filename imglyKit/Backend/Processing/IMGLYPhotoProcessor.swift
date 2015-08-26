@@ -86,7 +86,14 @@ All types of response-filters.
     Classic,
     NoGreen,
     Neat,
-    Plate
+    Plate,
+    //custom Doppel filters
+    AntoineVeglas,
+    IgorFainstein,
+    Jumiah,
+    DavidBismuth,
+    ChrisDavis,
+    NickHayes
 }
 
 @objc public class IMGLYPhotoProcessor {

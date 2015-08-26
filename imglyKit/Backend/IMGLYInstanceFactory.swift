@@ -24,6 +24,23 @@ import Foundation
         switch(type) {
         case IMGLYFilterType.None:
             return IMGLYNoneFilter()
+            
+            //DoppelTime filters
+        case IMGLYFilterType.AntoineVeglas:
+            return AntoineVeglasColor()
+        case IMGLYFilterType.IgorFainstein:
+            return IgorFainstein()
+        case IMGLYFilterType.Jumiah:
+            return Jumiah()
+        case IMGLYFilterType.DavidBismuth:
+            return DavidBismuth()
+        case IMGLYFilterType.ChrisDavis:
+            return ChrisDavis()
+        case IMGLYFilterType.NickHayes:
+            return NickHayes()
+            
+ 
+            //default filters
         case IMGLYFilterType.K1:
             return IMGLYK1Filter()
         case IMGLYFilterType.K2:
@@ -158,6 +175,10 @@ import Foundation
             return IMGLYNeatFilter()
         case IMGLYFilterType.Plate:
             return IMGLYPlateFilter()
+            
+            //not needed!
+        default:
+            return IMGLYPlateFilter()
         }
     }
     
@@ -223,6 +244,17 @@ import Foundation
     public class var availableFilterList: [IMGLYFilterType] {
         return [
             .None,
+            
+            //Doppeltime filters
+            .AntoineVeglas,
+            .IgorFainstein,
+            .Jumiah,
+            .DavidBismuth,
+            .ChrisDavis,
+            .NickHayes,
+            
+            
+            //custom filters
             .K1,
             .K2,
             .K6,
