@@ -253,7 +253,7 @@ import Foundation
             .DavidBismuth,
             .ChrisDavis,
             .NickHayes,
-            .GregWilliams
+            .GregWilliams,
             
             
             //custom filters
