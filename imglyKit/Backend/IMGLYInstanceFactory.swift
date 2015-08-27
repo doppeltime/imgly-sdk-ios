@@ -338,7 +338,7 @@ public class IMGLYInstanceFactory {
             .DavidBismuth,
             .ChrisDavis,
             .NickHayes,
-            .GregWilliams
+            .GregWilliams,
             
             
             //custom filters
