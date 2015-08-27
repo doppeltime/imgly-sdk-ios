@@ -93,7 +93,8 @@ All types of response-filters.
     Jumiah,
     DavidBismuth,
     ChrisDavis,
-    NickHayes
+    NickHayes,
+    GregWilliams
 }
 
 @objc public class IMGLYPhotoProcessor {

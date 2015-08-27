@@ -1,5 +1,5 @@
 //
-//  DavidBismuth.swift
+//  GregWilliams.swift
 //  Pods
 //
 //  Created by Manuel Betancurt on 18/08/2015.
@@ -8,11 +8,11 @@
 
 import Foundation
 
-public class DavidBismuth : IMGLYResponseFilter{
-    
+public class GregWilliams : IMGLYResponseFilter{
+ 
     init() {
-        super.init(responseName: "DavidBismuth")
-        self.imgly_displayName = "David\nBismuth"
+        super.init(responseName: "Greg")
+        self.imgly_displayName = "Greg\nWilliams"
     }
     
     required public init(coder aDecoder: NSCoder) {
@@ -21,10 +21,8 @@ public class DavidBismuth : IMGLYResponseFilter{
     
     public override var filterType:IMGLYFilterType {
         get {
-            return IMGLYFilterType.DavidBismuth
+            return IMGLYFilterType.GregWilliams
         }
     }
     
-}
-
-
+} 

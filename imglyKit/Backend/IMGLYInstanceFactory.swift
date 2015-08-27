@@ -38,7 +38,8 @@ import Foundation
             return ChrisDavis()
         case IMGLYFilterType.NickHayes:
             return NickHayes()
-            
+        case IMGLYFilterType.GregWilliams:
+            return GregWilliams()
  
             //default filters
         case IMGLYFilterType.K1:
@@ -252,6 +253,7 @@ import Foundation
             .DavidBismuth,
             .ChrisDavis,
             .NickHayes,
+            .GregWilliams
             
             
             //custom filters
