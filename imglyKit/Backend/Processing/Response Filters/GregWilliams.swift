@@ -11,7 +11,7 @@ import Foundation
 public class GregWilliams : IMGLYResponseFilter{
  
     init() {
-        super.init(responseName: "Greg")
+        super.init(responseName: "gregWilliams")
         self.imgly_displayName = "Greg\nWilliams"
     }
     
