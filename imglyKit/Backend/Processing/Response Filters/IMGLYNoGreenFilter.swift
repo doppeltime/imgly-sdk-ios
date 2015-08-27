@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYNoGreenFilter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "NoGreen")
-        self.imgly_displayName = "No Green"
+        self.imgly_displayName = "No\nGreen"
     }
 
     required public init(coder aDecoder: NSCoder) {

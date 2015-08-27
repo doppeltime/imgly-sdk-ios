@@ -40,6 +40,12 @@ import Foundation
             return NickHayes()
         case IMGLYFilterType.GregWilliams:
             return GregWilliams()
+        case IMGLYFilterType.AllenHenson:
+            return AllenHenson()
+        case IMGLYFilterType.HarethTayem:
+            return HarethTayem()
+
+
  
             //default filters
         case IMGLYFilterType.K1:
@@ -254,6 +260,8 @@ import Foundation
             .ChrisDavis,
             .NickHayes,
             .GregWilliams,
+            .AllenHenson,
+            .HarethTayem,
             
             
             //custom filters

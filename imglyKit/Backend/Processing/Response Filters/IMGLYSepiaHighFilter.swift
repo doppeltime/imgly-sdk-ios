@@ -11,7 +11,7 @@ import Foundation
 public class IMGLYSepiaHighFilter: IMGLYResponseFilter {
     init() {
         super.init(responseName: "SepiaHigh")
-        self.imgly_displayName = "Sepia High"
+        self.imgly_displayName = "Sepia\nHigh"
     }
     
     required public init(coder aDecoder: NSCoder) {
