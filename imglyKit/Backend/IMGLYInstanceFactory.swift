@@ -67,8 +67,6 @@ import Foundation
             return DOPLomo() 
 
 
-DOPLomo
-
 
             //not needed!
         default:
