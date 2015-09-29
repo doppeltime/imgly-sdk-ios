@@ -12,7 +12,7 @@ public class DOPCoolLight : IMGLYResponseFilter{
  
     init() {
         super.init(responseName: "CoolLight")
-        self.imgly_displayName = "Cool n\Light"
+        self.imgly_displayName = "Cool \nLight"
     }
     
     required public init(coder aDecoder: NSCoder) {
