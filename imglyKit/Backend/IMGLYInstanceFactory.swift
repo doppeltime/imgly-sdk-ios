@@ -264,9 +264,19 @@ import Foundation
             .HarethTayem,
             
             //
-            //custom filters
-            .K1,
-            .Plate
+            //custom dop filters
+            .Vintage1,
+            .Vintage2,
+            .Vintage3,
+            .CoolLight,
+            .Warm,
+            .Bright,
+            .Cosy,
+            .Sepia,
+            .Lomo
+
+            //.K1,
+            //.Plate
         ]
     }
     
