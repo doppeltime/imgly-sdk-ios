@@ -51,7 +51,7 @@ import Foundation
             
             //not needed!
         default:
-            return IMGLYPlateFilter()
+            return IMGLYNoneFilter()
         }
     }
     
