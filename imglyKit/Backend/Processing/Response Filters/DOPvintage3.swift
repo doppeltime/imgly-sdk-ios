@@ -1,5 +1,5 @@
 //
-//  DOPvintage1.swift
+//  DOPvintage3.swift
 //  Pods
 //
 //  Created by Manuel Betancurt on 29/09/2015.
@@ -8,11 +8,11 @@
 
 import Foundation
 
-public class DOPvintage1 : IMGLYResponseFilter{
+public class DOPvintage3 : IMGLYResponseFilter{
  
     init() {
-        super.init(responseName: "Vintage1")
-        self.imgly_displayName = "Vintage 1\n"
+        super.init(responseName: "Vintage3")
+        self.imgly_displayName = "Vintage 3\n"
     }
     
     required public init(coder aDecoder: NSCoder) {
@@ -21,7 +21,7 @@ public class DOPvintage1 : IMGLYResponseFilter{
     
     public override var filterType:IMGLYFilterType {
         get {
-            return IMGLYFilterType.Vintage1
+            return IMGLYFilterType.Vintage3
         }
     }
     

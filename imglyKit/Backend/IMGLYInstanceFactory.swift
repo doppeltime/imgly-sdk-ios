@@ -45,10 +45,17 @@ import Foundation
         case IMGLYFilterType.HarethTayem:
             return HarethTayem()
 
-        
- 
 
-            
+        //DOPPEL Custom filters
+        case IMGLYFilterType.Vintage1:
+            return DOPvintage1() //filterName
+        case IMGLYFilterType.Vintage2:
+            return DOPvintage2()
+        case IMGLYFilterType.Vintage3:
+            return DOPvintage3()            
+
+
+
             //not needed!
         default:
             return IMGLYNoneFilter()
