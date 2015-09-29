@@ -22,6 +22,7 @@ imgly-sdk-ios \ imglyKit \ Backend \ IMGLYInstanceFactory.swift
 
 6. add filter reference on
 imgly-sdk-ios \ imglyKit \ Backend \ Processing \ IMGLYPhotoProcessor.swift
+* the enum list of filters
 
 Add commit to GIT [add changes to branch filter framework]
 push changes to GIT

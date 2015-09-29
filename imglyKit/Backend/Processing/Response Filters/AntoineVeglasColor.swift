@@ -12,7 +12,7 @@ public class AntoineVeglasColor : IMGLYResponseFilter{
  
     init() {
         super.init(responseName: "Antoine")
-        self.imgly_displayName = "Antoine\nVeglas"
+        self.imgly_displayName = "Antoine\nVerglas"
     }
     
     required public init(coder aDecoder: NSCoder) {
