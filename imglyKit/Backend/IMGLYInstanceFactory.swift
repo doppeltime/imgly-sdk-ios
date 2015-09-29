@@ -53,7 +53,21 @@ import Foundation
             return DOPvintage2()
         case IMGLYFilterType.Vintage3:
             return DOPvintage3()            
+        case IMGLYFilterType.CoolLight:
+            return DOPCoolLight() 
+        case IMGLYFilterType.Warm:
+            return DOPWarm() 
+        case IMGLYFilterType.Bright:
+            return DOPBright() 
+        case IMGLYFilterType.Cosy:
+            return DOPCosy() 
+        case IMGLYFilterType.Sepia:
+            return DOPSepia() 
+        case IMGLYFilterType.Lomo:
+            return DOPLomo() 
 
+
+DOPLomo
 
 
             //not needed!
