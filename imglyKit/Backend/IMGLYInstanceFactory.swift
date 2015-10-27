@@ -12,18 +12,19 @@ import Foundation
   A singleton that is out to create objects. It is used within the SDK to 
   create filters, views, viewcontrollers and such.
 */
-@objc public class IMGLYInstanceFactory {
+public class IMGLYInstanceFactory {
     /**
     Creates a response filter with the specified type.
     
-    :param: type The type of the filter that should be created.
+    - parameter type: The type of the filter that should be created.
     
-    :returns: A CIFilter object that realizes the desired filter.
+    - returns: A CIFilter object that realizes the desired filter.
     */
     public class func effectFilterWithType(type: IMGLYFilterType) -> IMGLYResponseFilter {
         switch(type) {
-        case IMGLYFilterType.None:
+        case .None:
             return IMGLYNoneFilter()
+
             
             //DoppelTime filters
         case IMGLYFilterType.AntoineVeglas:
@@ -71,13 +72,14 @@ import Foundation
             //not needed!
         default:
             return IMGLYNoneFilter()
+
         }
     }
     
     /**
     Creates a text filter.
     
-    :returns: A text filter
+    - returns: A text filter
     */
     public class func textFilter() -> IMGLYTextFilter {
         return IMGLYTextFilter()
@@ -86,7 +88,7 @@ import Foundation
     /**
     Creates a sticker filter.
     
-    :returns: A sticker filter
+    - returns: A sticker filter
     */
     public class func stickerFilter() -> IMGLYStickerFilter {
         return IMGLYStickerFilter()
@@ -95,7 +97,7 @@ import Foundation
     /**
     Creates a crop filter.
     
-    :returns: A crop filter
+    - returns: A crop filter
     */
     public class func orientationCropFilter() -> IMGLYOrientationCropFilter {
         return IMGLYOrientationCropFilter()
@@ -104,7 +106,7 @@ import Foundation
     /**
     Creates a tiltshift filter.
     
-    :returns: A tiltshift filter.
+    - returns: A tiltshift filter.
     */
     public class func tiltShiftFilter() -> IMGLYTiltshiftFilter {
         return IMGLYTiltshiftFilter()
@@ -113,7 +115,7 @@ import Foundation
     /**
     Creates a color-adjustment filter.
     
-    :returns: A color-adjustment filter.
+    - returns: A color-adjustment filter.
     */
     public class func colorAdjustmentFilter() -> IMGLYContrastBrightnessSaturationFilter {
         return IMGLYContrastBrightnessSaturationFilter()
@@ -122,16 +124,25 @@ import Foundation
     /**
     Creates an enhancement filter.
     
-    :returns: A enhancement filter.
+    - returns: A enhancement filter.
     */
     public class func enhancementFilter() -> IMGLYEnhancementFilter {
         return IMGLYEnhancementFilter()
     }
     
     /**
+    Creates an scale filter.
+    
+    - returns: A scale filter.
+    */
+    public class func scaleFilter() -> IMGLYScaleFilter {
+        return IMGLYScaleFilter()
+    }
+    
+    /**
     Returns the list of filters, that should be available in the dialogs.
     Change this list to select the set of filters you want to present to the user.
-    :returns: An array of filter types.
+    - returns: An array of filter types.
     */
     public class var availableFilterList: [IMGLYFilterType] {
         return [
@@ -171,7 +182,7 @@ import Foundation
     Returns a list that determins what fonts will be available within
     the text-dialog.
     
-    :returns: An array of fontnames.
+    - returns: An array of fontnames.
     */
     public class var availableFontsList: [String] {
         return [
