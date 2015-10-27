@@ -15,7 +15,7 @@ public class DOPWarm : IMGLYResponseFilter{
         self.imgly_displayName = "Warm \n"
     }
     
-    required public init(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     

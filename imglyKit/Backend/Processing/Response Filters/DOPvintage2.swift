@@ -15,7 +15,7 @@ public class DOPvintage2 : IMGLYResponseFilter{
         self.imgly_displayName = "Vintage 2\n"
     }
     
-    required public init(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     

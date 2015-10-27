@@ -15,7 +15,7 @@ public class DOPCosy : IMGLYResponseFilter{
         self.imgly_displayName = "Cosy \n"
     }
     
-    required public init(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
