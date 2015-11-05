@@ -305,6 +305,11 @@ public class IMGLYCameraViewController: UIViewController {
         return .Portrait
     }
 
+    public override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        let orientation: UIInterfaceOrientationMask = [UIInterfaceOrientationMask.Portrait]
+        return orientation
+    } 
+
     // MARK: - Configuration
     
     private func configureRecordingModeSwitching() {
