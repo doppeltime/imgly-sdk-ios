@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class AllenHenson : IMGLYResponseFilter{
+public class ChrisCuffaro : IMGLYResponseFilter{
  
     init() {
         super.init(responseName: "ChrisCuffaro")
