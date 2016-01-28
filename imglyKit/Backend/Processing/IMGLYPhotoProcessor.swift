@@ -36,6 +36,7 @@ All types of response-filters.
     Jumiah,
     DavidBismuth,
     ChrisDavis,
+    ChrisCuffaro,
     NickHayes,
     GregWilliams,
     AllenHenson,

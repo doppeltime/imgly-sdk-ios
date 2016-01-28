@@ -37,6 +37,8 @@ public class IMGLYInstanceFactory {
             return DavidBismuth()
         case IMGLYFilterType.ChrisDavis:
             return ChrisDavis()
+        case IMGLYFilterType.ChrisCuffaro:
+            return ChrisCuffaro()
         case IMGLYFilterType.NickHayes:
             return NickHayes()
         case IMGLYFilterType.GregWilliams:
@@ -154,6 +156,7 @@ public class IMGLYInstanceFactory {
             .Jumiah,
             .DavidBismuth,
             .ChrisDavis,
+            .ChrisCuffaro,
             .NickHayes,
             .GregWilliams,
             .AllenHenson,
