@@ -1,4 +1,13 @@
 
+Update sync from master 
+this is forked!
+$ cd /Users/iosdev/imgly-sdk-ios/
+$ git remote add upstream git://github.com/imgly/imgly-sdk-ios.git
+$ git fetch upstream
+$ git rebase upstream/master
+FIX ANY MERGE CONFLICTS, USING MINE!
+git rebase --continue
+
 
 Instructions to add new filter
 
