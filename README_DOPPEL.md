@@ -13,7 +13,7 @@ pod 'imglyKit', :git => 'https://github.com/doppeltime/imgly-sdk-ios.git'
 3.  save the processed image png with relevant name on:
 \imgly-sdk-ios \ imglyKit \ Backend \ Filter Responses \ myPhotographerFilter.png
 
-4. create swift project file
+4. create swift project file. Copy existing file and edit!
 imgly-sdk-ios \ imglyKit \ Backend \ Processing \ Response Filters \ MyPhotographerFilter.swift
 	- use name to show on UI
 
