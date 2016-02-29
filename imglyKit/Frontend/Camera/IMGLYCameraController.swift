@@ -1080,6 +1080,9 @@ public class IMGLYCameraController: NSObject {
     private func startWriting() {
         delegate?.cameraControllerDidStartRecording?(self)
         
+        let nc = NSNotificationCenter.defaultCenter()
+        nc.postNotificationName("savePicToGallery", object: nil)
+        
         dispatch_async(sessionQueue) {
             var error: NSError?
             
