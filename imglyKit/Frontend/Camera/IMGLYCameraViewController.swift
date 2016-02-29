@@ -700,6 +700,10 @@ public class IMGLYCameraViewController: UIViewController {
     }
     
     public func showCameraRoll(sender: UIButton?) {
+        let nc = NSNotificationCenter.defaultCenter()
+        nc.postNotificationName("photoFromGallery", object: nil)
+        
+        
         let imagePicker = UIImagePickerController()
         
         imagePicker.delegate = self
