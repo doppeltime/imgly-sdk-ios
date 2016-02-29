@@ -283,6 +283,9 @@ extension IMGLYMainEditorViewController: UICollectionViewDelegate {
         let actionButton = actionButtons[indexPath.item]
         actionButton.handler()
         
+        let nc = NSNotificationCenter.defaultCenter()
+        nc.postNotificationName("savePicToGallery", object: nil)
+        
         if actionButton.selectedImage != nil && actionButton.showSelection != nil {
             collectionView.reloadItemsAtIndexPaths([indexPath])
         }

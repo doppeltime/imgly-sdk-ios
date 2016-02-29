@@ -700,10 +700,6 @@ public class IMGLYCameraViewController: UIViewController {
     }
     
     public func showCameraRoll(sender: UIButton?) {
-        let nc = NSNotificationCenter.defaultCenter()
-        nc.postNotificationName("photoFromGallery", object: nil)
-        
-        
         let imagePicker = UIImagePickerController()
         
         imagePicker.delegate = self
@@ -723,6 +719,9 @@ public class IMGLYCameraViewController: UIViewController {
             if error == nil {
                 dispatch_async(dispatch_get_main_queue()) {
                     if let completionBlock = self.completionBlock {
+                        let nc = NSNotificationCenter.defaultCenter()
+                        nc.postNotificationName("savePicToGallery", object: nil)
+                        
                         completionBlock(image, nil)
                     } else {
                         if let image = image {
