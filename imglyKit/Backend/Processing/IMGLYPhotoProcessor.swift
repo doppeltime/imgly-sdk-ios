@@ -40,7 +40,10 @@ All types of response-filters.
     NickHayes,
     GregWilliams,
     AllenHenson,
-    HarethTayem
+    HarethTayem,
+    PeterBrewBevan,
+    TimWalker,
+    JamesBedford
 }
 
 public class IMGLYPhotoProcessor {

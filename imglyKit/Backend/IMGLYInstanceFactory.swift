@@ -47,6 +47,12 @@ public class IMGLYInstanceFactory {
             return AllenHenson()
         case IMGLYFilterType.HarethTayem:
             return HarethTayem()
+        case IMGLYFilterType.PeterBrewBevan:
+            return PeterBrewBevan()
+        case IMGLYFilterType.TimWalker:
+            return TimWalker()
+        case IMGLYFilterType.JamesBedford:
+            return JamesBedford()
 
 
         //DOPPEL Custom filters
@@ -152,6 +158,9 @@ public class IMGLYInstanceFactory {
             
             //Doppeltime filters
             .AntoineVeglas,
+            .PeterBrewBevan,
+            .TimWalker,
+            .JamesBedford,
             .IgorFainstein,
             .Jumiah,
             .DavidBismuth,
