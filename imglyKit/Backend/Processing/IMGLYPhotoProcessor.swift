@@ -36,6 +36,7 @@ All types of response-filters.
     Jumiah,
     DavidBismuth,
     ChrisDavis,
+<<<<<<< 245255d054fc06e4967772691bb941e568f16e18
     ChrisCuffaro,
     NickHayes,
     GregWilliams,
@@ -47,6 +48,10 @@ All types of response-filters.
     TomParker,
     EmmaJane,
     RaexMurillo
+=======
+    NickHayes,
+    GregWilliams
+>>>>>>> added Greg Williams filter. And read me with instructions on how to add new filters
 }
 
 public class IMGLYPhotoProcessor {

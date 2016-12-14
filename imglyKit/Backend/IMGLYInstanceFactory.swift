@@ -43,6 +43,7 @@ public class IMGLYInstanceFactory {
             return NickHayes()
         case IMGLYFilterType.GregWilliams:
             return GregWilliams()
+<<<<<<< 245255d054fc06e4967772691bb941e568f16e18
         case IMGLYFilterType.AllenHenson:
             return AllenHenson()
         case IMGLYFilterType.HarethTayem:
@@ -77,6 +78,52 @@ public class IMGLYInstanceFactory {
             return DOPCosy() 
         case IMGLYFilterType.Sepia:
             return DOPSepia() 
+=======
+ 
+            //default filters
+        case IMGLYFilterType.K1:
+            return IMGLYK1Filter()
+        case IMGLYFilterType.K2:
+            return IMGLYK2Filter()
+        case IMGLYFilterType.K6:
+            return IMGLYK6Filter()
+        case IMGLYFilterType.KDynamic:
+            return IMGLYKDynamicFilter()
+        case IMGLYFilterType.Fridge:
+            return IMGLYFridgeFilter()
+        case IMGLYFilterType.Breeze:
+            return IMGLYBreezeFilter()
+        case IMGLYFilterType.Orchid:
+            return IMGLYOrchidFilter()
+        case IMGLYFilterType.Chest:
+            return IMGLYChestFilter()
+        case IMGLYFilterType.Front:
+            return IMGLYFrontFilter()
+        case IMGLYFilterType.Fixie:
+            return IMGLYFixieFilter()
+        case IMGLYFilterType.X400:
+            return IMGLYX400Filter()
+        case IMGLYFilterType.BW:
+            return IMGLYBWFilter()
+        case IMGLYFilterType.AD1920:
+            return IMGLYAD1920Filter()
+        case IMGLYFilterType.Lenin:
+            return IMGLYLeninFilter()
+        case IMGLYFilterType.Quozi:
+            return IMGLYQuoziFilter()
+        case IMGLYFilterType.Pola669:
+            return IMGLYPola669Filter()
+        case IMGLYFilterType.PolaSX:
+            return IMGLYPolaSXFilter()
+        case IMGLYFilterType.Food:
+            return IMGLYFoodFilter()
+        case IMGLYFilterType.Glam:
+            return IMGLYGlamFilter()
+        case IMGLYFilterType.Celsius:
+            return IMGLYCelsiusFilter()
+        case IMGLYFilterType.Texas:
+            return IMGLYTexasFilter()
+>>>>>>> added Greg Williams filter. And read me with instructions on how to add new filters
         case IMGLYFilterType.Lomo:
             return DOPLomo() 
 
@@ -175,6 +222,37 @@ public class IMGLYInstanceFactory {
             .IgorFainstein,
             .JamesBedford,
             .Jumiah,
+<<<<<<< 245255d054fc06e4967772691bb941e568f16e18
+=======
+            .DavidBismuth,
+            .ChrisDavis,
+            .NickHayes,
+            .GregWilliams
+            
+            
+            //custom filters
+            .K1,
+            .K2,
+            .K6,
+            .KDynamic,
+            .Fridge,
+            .Breeze,
+            .Orchid,
+            .Chest,
+            .Front,
+            .Fixie,
+            .X400,
+            .BW,
+            .AD1920,
+            .Lenin,
+            .Quozi,
+            .Pola669,
+            .PolaSX,
+            .Food,
+            .Glam,
+            .Celsius,
+            .Texas,
+>>>>>>> added Greg Williams filter. And read me with instructions on how to add new filters
             .Lomo,
             .NickHayes,
             .PeterBrewBevan,

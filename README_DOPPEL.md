@@ -1,4 +1,5 @@
 
+<<<<<<< 245255d054fc06e4967772691bb941e568f16e18
 Update sync from master 
 this is forked!
 $ cd /Users/iosdev/imgly-sdk-ios/
@@ -8,6 +9,8 @@ $ git rebase upstream/master
 FIX ANY MERGE CONFLICTS, USING MINE!
 git rebase --continue
 
+=======
+>>>>>>> added Greg Williams filter. And read me with instructions on how to add new filters
 
 Instructions to add new filter
 
@@ -22,7 +25,11 @@ pod 'imglyKit', :git => 'https://github.com/doppeltime/imgly-sdk-ios.git'
 3.  save the processed image png with relevant name on:
 \imgly-sdk-ios \ imglyKit \ Backend \ Filter Responses \ myPhotographerFilter.png
 
+<<<<<<< 245255d054fc06e4967772691bb941e568f16e18
 4. create swift project file. Copy existing file and edit!
+=======
+4. create swift project file
+>>>>>>> added Greg Williams filter. And read me with instructions on how to add new filters
 imgly-sdk-ios \ imglyKit \ Backend \ Processing \ Response Filters \ MyPhotographerFilter.swift
 	- use name to show on UI
 
@@ -31,10 +38,16 @@ imgly-sdk-ios \ imglyKit \ Backend \ IMGLYInstanceFactory.swift
 
 6. add filter reference on
 imgly-sdk-ios \ imglyKit \ Backend \ Processing \ IMGLYPhotoProcessor.swift
+<<<<<<< 245255d054fc06e4967772691bb941e568f16e18
 * the enum list of filters
+=======
+>>>>>>> added Greg Williams filter. And read me with instructions on how to add new filters
 
 Add commit to GIT [add changes to branch filter framework]
 push changes to GIT
 
 update doppel time pods project [get changes from GIT custom branch]
+<<<<<<< 245255d054fc06e4967772691bb941e568f16e18
 [on Doppeltime project root path] $update pod
+=======
+>>>>>>> added Greg Williams filter. And read me with instructions on how to add new filters
