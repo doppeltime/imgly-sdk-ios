@@ -78,49 +78,7 @@ public class IMGLYInstanceFactory {
         case IMGLYFilterType.Sepia:
             return DOPSepia()
  
-            //default filters
-        case IMGLYFilterType.K1:
-            return IMGLYK1Filter()
-        case IMGLYFilterType.K2:
-            return IMGLYK2Filter()
-        case IMGLYFilterType.K6:
-            return IMGLYK6Filter()
-        case IMGLYFilterType.KDynamic:
-            return IMGLYKDynamicFilter()
-        case IMGLYFilterType.Fridge:
-            return IMGLYFridgeFilter()
-        case IMGLYFilterType.Breeze:
-            return IMGLYBreezeFilter()
-        case IMGLYFilterType.Orchid:
-            return IMGLYOrchidFilter()
-        case IMGLYFilterType.Chest:
-            return IMGLYChestFilter()
-        case IMGLYFilterType.Front:
-            return IMGLYFrontFilter()
-        case IMGLYFilterType.Fixie:
-            return IMGLYFixieFilter()
-        case IMGLYFilterType.X400:
-            return IMGLYX400Filter()
-        case IMGLYFilterType.BW:
-            return IMGLYBWFilter()
-        case IMGLYFilterType.AD1920:
-            return IMGLYAD1920Filter()
-        case IMGLYFilterType.Lenin:
-            return IMGLYLeninFilter()
-        case IMGLYFilterType.Quozi:
-            return IMGLYQuoziFilter()
-        case IMGLYFilterType.Pola669:
-            return IMGLYPola669Filter()
-        case IMGLYFilterType.PolaSX:
-            return IMGLYPolaSXFilter()
-        case IMGLYFilterType.Food:
-            return IMGLYFoodFilter()
-        case IMGLYFilterType.Glam:
-            return IMGLYGlamFilter()
-        case IMGLYFilterType.Celsius:
-            return IMGLYCelsiusFilter()
-        case IMGLYFilterType.Texas:
-            return IMGLYTexasFilter()
+            
         case IMGLYFilterType.Lomo:
             return DOPLomo() 
 
