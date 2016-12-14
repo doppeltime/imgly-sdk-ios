@@ -16,6 +16,11 @@ public class GregWilliams : IMGLYResponseFilter{
     }
     
     required public init?(coder aDecoder: NSCoder) {
+        super.init(responseName: "Greg")
+        self.imgly_displayName = "Greg\nWilliams"
+    }
+    
+    required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     

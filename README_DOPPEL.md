@@ -1,4 +1,5 @@
 
+
 Update sync from master 
 this is forked!
 $ cd /Users/iosdev/imgly-sdk-ios/
@@ -7,6 +8,7 @@ $ git fetch upstream
 $ git rebase upstream/master
 FIX ANY MERGE CONFLICTS, USING MINE!
 git rebase --continue
+
 
 
 Instructions to add new filter

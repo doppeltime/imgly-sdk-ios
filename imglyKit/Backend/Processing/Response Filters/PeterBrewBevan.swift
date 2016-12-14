@@ -2,7 +2,6 @@
 //  PeterBrewBevan.swift
 //  Pods
 //
-//  Created by Manuel Betancurt on 30/11/2016   .
 //
 //
 

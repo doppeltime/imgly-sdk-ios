@@ -76,9 +76,7 @@ public class IMGLYInstanceFactory {
         case IMGLYFilterType.Cosy:
             return DOPCosy() 
         case IMGLYFilterType.Sepia:
-            return DOPSepia() 
-
-
+            return DOPSepia()
  
             //default filters
         case IMGLYFilterType.K1:
@@ -224,11 +222,9 @@ public class IMGLYInstanceFactory {
             .DavidBismuth,
             .ChrisDavis,
             .NickHayes,
-            .GregWilliams,
-            .AllenHenson,
-            .HarethTayem,
+            .GregWilliams
             
-            //
+
             //custom filters
             .K1,
             .K2,
