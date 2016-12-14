@@ -15,7 +15,7 @@ public class IMGLYStickersEditorViewController: IMGLYSubEditorViewController {
 
     // MARK: - Properties
     
-    public let stickersDataSource = IMGLYStickersDataSource()
+    public var stickersDataSource = IMGLYStickersDataSource()
     public private(set) lazy var stickersClipView: UIView = {
         let view = UIView()
         view.clipsToBounds = true
@@ -23,6 +23,7 @@ public class IMGLYStickersEditorViewController: IMGLYSubEditorViewController {
         }()
     
     private var draggedView: UIView?
+    private var tempStickerCopy = [CIFilter]()
     
     // MARK: - SubEditorViewController
     
@@ -31,18 +32,17 @@ public class IMGLYStickersEditorViewController: IMGLYSubEditorViewController {
         
         for view in stickersClipView.subviews {
             if let view = view as? UIImageView {
-                
                 if let image = view.image {
                     let stickerFilter = IMGLYInstanceFactory.stickerFilter()
                     stickerFilter.sticker = image
-                    let center = CGPoint(x: view.center.x / stickersClipView.frame.size.width, y: view.center.y / stickersClipView.frame.size.height)
+                    let center = CGPoint(x: view.center.x / stickersClipView.frame.size.width,
+                                         y: view.center.y / stickersClipView.frame.size.height)
                     
                     var size = initialSizeForStickerImage(image)
                     size.width = size.width / stickersClipView.bounds.size.width
                     size.height = size.height / stickersClipView.bounds.size.height
-
                     stickerFilter.center = center
-                    stickerFilter.size = size
+                    stickerFilter.scale = size.width
                     stickerFilter.transform = view.transform
                     fixedFilterStack.stickerFilters.append(stickerFilter)
                     addedStickers = true
@@ -82,6 +82,13 @@ public class IMGLYStickersEditorViewController: IMGLYSubEditorViewController {
         configureStickersCollectionView()
         configureStickersClipView()
         configureGestureRecognizers()
+        backupStickers()
+        fixedFilterStack.stickerFilters.removeAll()
+    }
+    
+    public override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        rerenderPreviewWithoutStickers()
     }
     
     override public func viewDidLayoutSubviews() {
@@ -215,9 +222,43 @@ public class IMGLYStickersEditorViewController: IMGLYSubEditorViewController {
             }
         }
     }
+    
+    
+    // MARK: - sticker object restore
+    
+    private func rerenderPreviewWithoutStickers() {
+        updatePreviewImageWithCompletion { () -> (Void) in
+            self.addStickerImagesFromStickerFilters(self.tempStickerCopy)
+        }
+    }
+    
+    private func addStickerImagesFromStickerFilters(stickerFilters: [CIFilter]) {
+        for element in stickerFilters {
+            guard let stickerFilter = element as? IMGLYStickerFilter else {
+                return
+            }
+            
+            let imageView = UIImageView(image: stickerFilter.sticker)
+            imageView.userInteractionEnabled = true
+            
+            let size = stickerFilter.absolutStickerSizeForImageSize(stickersClipView.bounds.size)
+            imageView.frame.size = size
+            
+            let center = CGPoint(x: stickerFilter.center.x * stickersClipView.frame.size.width,
+                                 y: stickerFilter.center.y * stickersClipView.frame.size.height)
+            imageView.center = center
+            imageView.transform = stickerFilter.transform
+            stickersClipView.addSubview(imageView)
+        }
+    }
+    
+    private func backupStickers() {
+        tempStickerCopy = fixedFilterStack.stickerFilters
+    }
 }
 
 extension IMGLYStickersEditorViewController: UICollectionViewDelegate {
+    // add selected sticker
     public func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         let sticker = stickersDataSource.stickers[indexPath.row]
         let imageView = UIImageView(image: sticker.image)

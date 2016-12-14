@@ -1,4 +1,13 @@
 
+Update sync from master 
+this is forked!
+$ cd /Users/iosdev/imgly-sdk-ios/
+$ git remote add upstream git://github.com/imgly/imgly-sdk-ios.git
+$ git fetch upstream
+$ git rebase upstream/master
+FIX ANY MERGE CONFLICTS, USING MINE!
+git rebase --continue
+
 
 Instructions to add new filter
 
@@ -13,7 +22,7 @@ pod 'imglyKit', :git => 'https://github.com/doppeltime/imgly-sdk-ios.git'
 3.  save the processed image png with relevant name on:
 \imgly-sdk-ios \ imglyKit \ Backend \ Filter Responses \ myPhotographerFilter.png
 
-4. create swift project file
+4. create swift project file. Copy existing file and edit!
 imgly-sdk-ios \ imglyKit \ Backend \ Processing \ Response Filters \ MyPhotographerFilter.swift
 	- use name to show on UI
 

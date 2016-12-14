@@ -47,7 +47,18 @@ public class IMGLYInstanceFactory {
             return AllenHenson()
         case IMGLYFilterType.HarethTayem:
             return HarethTayem()
-
+        case IMGLYFilterType.PeterBrewBevan:
+            return PeterBrewBevan()
+        case IMGLYFilterType.TimWalker:
+            return TimWalker()
+        case IMGLYFilterType.JamesBedford:
+            return JamesBedford()
+        case IMGLYFilterType.TomParker:
+            return TomParker()
+        case IMGLYFilterType.EmmaJane:
+            return EmmaJane()
+        case IMGLYFilterType.RaexMurillo:
+            return RaexMurillo()
 
         //DOPPEL Custom filters
         case IMGLYFilterType.Vintage1:
@@ -150,29 +161,31 @@ public class IMGLYInstanceFactory {
         return [
             .None,
             
-            //Doppeltime filters
-            .AntoineVeglas,
-            .IgorFainstein,
-            .Jumiah,
-            .DavidBismuth,
-            .ChrisDavis,
-            .ChrisCuffaro,
-            .NickHayes,
-            .GregWilliams,
             .AllenHenson,
+            .AntoineVeglas,
+            .Bright,
+            .ChrisCuffaro,
+            .ChrisDavis,
+            .CoolLight,
+            .Cosy,
+            .DavidBismuth,
+            .EmmaJane,
+            .GregWilliams,
             .HarethTayem,
-            
-            //
-            //custom dop filters
+            .IgorFainstein,
+            .JamesBedford,
+            .Jumiah,
+            .Lomo,
+            .NickHayes,
+            .PeterBrewBevan,
+            .RaexMurillo,
+            .Sepia,
+            .TimWalker,
+            .TomParker,
             .Vintage1,
             .Vintage2,
             .Vintage3,
-            .CoolLight,
-            .Warm,
-            .Bright,
-            .Cosy,
-            .Sepia,
-            .Lomo
+            .Warm
 
             //.K1,
             //.Plate
