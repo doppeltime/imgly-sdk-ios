@@ -228,7 +228,7 @@ public class IMGLYInstanceFactory {
             .AllenHenson,
             .HarethTayem,
             
-            
+            //
             //custom filters
             .K1,
             .K2,
@@ -265,6 +265,7 @@ public class IMGLYInstanceFactory {
 
             //.K1,
             //.Plate
+            .Plate
         ]
     }
     
