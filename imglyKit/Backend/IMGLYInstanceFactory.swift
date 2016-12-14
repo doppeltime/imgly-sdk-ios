@@ -184,42 +184,42 @@ public class IMGLYInstanceFactory {
             
 
             //custom filters
-            .K1,
-            .K2,
-            .K6,
-            .KDynamic,
-            .Fridge,
-            .Breeze,
-            .Orchid,
-            .Chest,
-            .Front,
-            .Fixie,
-            .X400,
-            .BW,
-            .AD1920,
-            .Lenin,
-            .Quozi,
-            .Pola669,
-            .PolaSX,
-            .Food,
-            .Glam,
-            .Celsius,
-            .Texas,
-            .Lomo,
-            .NickHayes,
-            .PeterBrewBevan,
-            .RaexMurillo,
-            .Sepia,
-            .TimWalker,
-            .TomParker,
-            .Vintage1,
-            .Vintage2,
-            .Vintage3,
-            .Warm
-
-            //.K1,
-            //.Plate
-            .Plate
+//            .K1,
+//            .K2,
+//            .K6,
+//            .KDynamic,
+//            .Fridge,
+//            .Breeze,
+//            .Orchid,
+//            .Chest,
+//            .Front,
+//            .Fixie,
+//            .X400,
+//            .BW,
+//            .AD1920,
+//            .Lenin,
+//            .Quozi,
+//            .Pola669,
+//            .PolaSX,
+//            .Food,
+//            .Glam,
+//            .Celsius,
+//            .Texas,
+//            .Lomo,
+//            .NickHayes,
+//            .PeterBrewBevan,
+//            .RaexMurillo,
+//            .Sepia,
+//            .TimWalker,
+//            .TomParker,
+//            .Vintage1,
+//            .Vintage2,
+//            .Vintage3,
+//            .Warm
+//
+//            //.K1,
+//            //.Plate
+//            .Plate
         ]
     }
     
