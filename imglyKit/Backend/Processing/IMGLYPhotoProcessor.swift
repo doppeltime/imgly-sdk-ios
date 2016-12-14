@@ -29,6 +29,7 @@ All types of response-filters.
     Cosy,
     Sepia,
     Lomo,
+    Highcarb,
 
     //custom Doppel filters
     AntoineVeglas,
