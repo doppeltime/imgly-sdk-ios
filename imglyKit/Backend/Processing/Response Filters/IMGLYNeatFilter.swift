@@ -14,7 +14,7 @@ public class IMGLYNeatFilter: IMGLYResponseFilter {
         self.imgly_displayName = "Neat\n"
     }
     
-    required public init(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
