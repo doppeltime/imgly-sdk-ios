@@ -163,8 +163,8 @@ public class IMGLYInstanceFactory {
         return [
             .None,
             
-            .AllenHenson,
             .AntoineVeglas,
+            .PeterBrewBevan,
             .Bright,
             .ChrisCuffaro,
             .ChrisDavis,
@@ -178,7 +178,9 @@ public class IMGLYInstanceFactory {
             .JamesBedford,
             .Jumiah,
             .NickHayes,
-            .PeterBrewBevan
+            .RaexMurillo,
+            .TimWalker,
+            .TomParker
             
 
         ]

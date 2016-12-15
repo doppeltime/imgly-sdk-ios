@@ -12,7 +12,7 @@ public class PeterBrewBevan : IMGLYResponseFilter{
     
     init() {
         super.init(responseName: "PeterBrewBevan")
-        self.imgly_displayName = "Brew-Bevan"
+        self.imgly_displayName = "Brew-Bevan\n"
     }
     
     required public init?(coder aDecoder: NSCoder) {
