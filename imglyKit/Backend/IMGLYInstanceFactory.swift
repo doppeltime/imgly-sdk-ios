@@ -177,10 +177,16 @@ public class IMGLYInstanceFactory {
             .IgorFainstein,
             .JamesBedford,
             .Jumiah,
+            .Lomo,
             .NickHayes,
             .RaexMurillo,
+            .Sepia,
             .TimWalker,
-            .TomParker
+            .TomParker,
+            .Vintage1,
+            .Vintage2,
+            .Vintage3,
+            .Warm
             
 
         ]
