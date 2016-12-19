@@ -59,6 +59,8 @@ public class IMGLYInstanceFactory {
             return EmmaJane()
         case IMGLYFilterType.RaexMurillo:
             return RaexMurillo()
+        case IMGLYFilterType.TonyMott:
+            return TonyMott()
 
         //DOPPEL Custom filters
         case IMGLYFilterType.Vintage1:
@@ -183,6 +185,7 @@ public class IMGLYInstanceFactory {
             .Sepia,
             .TimWalker,
             .TomParker,
+            .TonyMott,
             .Vintage1,
             .Vintage2,
             .Vintage3,

@@ -47,7 +47,8 @@ All types of response-filters.
     JamesBedford,
     TomParker,
     EmmaJane,
-    RaexMurillo
+    RaexMurillo,
+    TonyMott
 }
 
 public class IMGLYPhotoProcessor {
