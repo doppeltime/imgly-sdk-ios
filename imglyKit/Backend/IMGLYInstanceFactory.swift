@@ -92,16 +92,16 @@ public class IMGLYInstanceFactory {
             return AllenHenson()
         case IMGLYFilterType.HarethTayem:
             return HarethTayem()
-
-        
- 
-
-            
-//            not needed!
-//        default:
-//            return IMGLYPlateFilter()
-            
         //not needed!
+        //DOPPEL Custom filters
+        case IMGLYFilterType.Vintage1:
+            return DOPvintage1() //filterName
+        case IMGLYFilterType.Vintage2:
+            return DOPvintage2()
+        case IMGLYFilterType.Vintage3:
+            return DOPvintage3()            
+
+
         default:
             return IMGLYNoneFilter()
 
