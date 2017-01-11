@@ -1,17 +1,17 @@
 //
-//  IMGLYHighcarbFilter.swift
+//  IMGLYSteelFilter.swift
 //  imglyKit
 //
-//  Created by Carsten Przyluczky on 24/02/15.
+//  Created by Carsten Przyluczky on 29/01/15.
 //  Copyright (c) 2015 9elements GmbH. All rights reserved.
 //
 
 import Foundation
 
-public class IMGLYHighcarbFilter: IMGLYResponseFilter {
+public class IMGLYSteelFilter: IMGLYResponseFilter {
     init() {
-        super.init(responseName: "Highcarb")
-        self.imgly_displayName = "Carb\n"
+        super.init(responseName: "Steel")
+        self.imgly_displayName = "Steel\n"
     }
     
     required public init(coder aDecoder: NSCoder) {
@@ -20,7 +20,7 @@ public class IMGLYHighcarbFilter: IMGLYResponseFilter {
     
     public override var filterType:IMGLYFilterType {
         get {
-            return IMGLYFilterType.Highcarb
+            return IMGLYFilterType.Steel
         }
     }
 }

@@ -1,5 +1,5 @@
 //
-//  IMGLYHighcarbFilter.swift
+//  IMGLYCreamyFilter.swift
 //  imglyKit
 //
 //  Created by Carsten Przyluczky on 24/02/15.
@@ -8,10 +8,10 @@
 
 import Foundation
 
-public class IMGLYHighcarbFilter: IMGLYResponseFilter {
+public class IMGLYCreamyFilter: IMGLYResponseFilter {
     init() {
-        super.init(responseName: "Highcarb")
-        self.imgly_displayName = "Carb\n"
+        super.init(responseName: "Creamy")
+        self.imgly_displayName = "Creamy\n"
     }
     
     required public init(coder aDecoder: NSCoder) {
@@ -20,7 +20,7 @@ public class IMGLYHighcarbFilter: IMGLYResponseFilter {
     
     public override var filterType:IMGLYFilterType {
         get {
-            return IMGLYFilterType.Highcarb
+            return IMGLYFilterType.Creamy
         }
     }
 }

@@ -1,5 +1,5 @@
 //
-//  IMGLYHighcarbFilter.swift
+//  IMGLYSunsetFilter.swift
 //  imglyKit
 //
 //  Created by Carsten Przyluczky on 24/02/15.
@@ -8,10 +8,10 @@
 
 import Foundation
 
-public class IMGLYHighcarbFilter: IMGLYResponseFilter {
+public class IMGLYSunsetFilter: IMGLYResponseFilter {
     init() {
-        super.init(responseName: "Highcarb")
-        self.imgly_displayName = "Carb\n"
+        super.init(responseName: "Sunset")
+        self.imgly_displayName = "Sunset\n"
     }
     
     required public init(coder aDecoder: NSCoder) {
@@ -20,7 +20,7 @@ public class IMGLYHighcarbFilter: IMGLYResponseFilter {
     
     public override var filterType:IMGLYFilterType {
         get {
-            return IMGLYFilterType.Highcarb
+            return IMGLYFilterType.Sunset
         }
     }
 }
