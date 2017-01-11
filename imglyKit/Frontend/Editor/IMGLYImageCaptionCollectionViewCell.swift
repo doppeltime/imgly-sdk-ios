@@ -5,7 +5,6 @@
 //  Created by Sascha Schwabbauer on 08/04/15.
 //  Copyright (c) 2015 9elements GmbH. All rights reserved.
 //
-
 import UIKit
 
 class IMGLYImageCaptionCollectionViewCell: UICollectionViewCell {
@@ -17,23 +16,23 @@ class IMGLYImageCaptionCollectionViewCell: UICollectionViewCell {
         imageView.contentMode = .Center
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
-        }()
+    }()
     
     lazy var textLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.systemFontOfSize(11)
         label.textColor = UIColor(white: 0.5, alpha: 1.0)
-
+        
         
         label.textAlignment = NSTextAlignment.Center
         
-//        label.backgroundColor = UIColor(red: 1, green: 0, blue: 0, alpha: 1)
+        //        label.backgroundColor = UIColor(red: 1, green: 0, blue: 0, alpha: 1)
         label.numberOfLines = 0
         
         label.translatesAutoresizingMaskIntoConstraints = false
-
+        
         return label
-        }()
+    }()
     
     // MARK: - Initializers
     
