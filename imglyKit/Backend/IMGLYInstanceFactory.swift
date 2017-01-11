@@ -24,7 +24,10 @@ public class IMGLYInstanceFactory {
         switch(type) {
         case .None:
             return IMGLYNoneFilter()
+<<<<<<< HEAD
 
+=======
+>>>>>>> updated filter image processed, updated filters names, method handlers
             
             //DoppelTime filters
         case IMGLYFilterType.AntoineVeglas:
@@ -37,6 +40,7 @@ public class IMGLYInstanceFactory {
             return DavidBismuth()
         case IMGLYFilterType.ChrisDavis:
             return ChrisDavis()
+<<<<<<< HEAD
         case IMGLYFilterType.ChrisCuffaro:
             return ChrisCuffaro()
         case IMGLYFilterType.NickHayes:
@@ -90,6 +94,151 @@ public class IMGLYInstanceFactory {
         default:
             return IMGLYNoneFilter()
 
+=======
+        case IMGLYFilterType.NickHayes:
+            return NickHayes()
+            
+ 
+            //default filters
+        case IMGLYFilterType.K1:
+            return IMGLYK1Filter()
+        case IMGLYFilterType.K2:
+            return IMGLYK2Filter()
+        case IMGLYFilterType.K6:
+            return IMGLYK6Filter()
+        case IMGLYFilterType.KDynamic:
+            return IMGLYKDynamicFilter()
+        case IMGLYFilterType.Fridge:
+            return IMGLYFridgeFilter()
+        case IMGLYFilterType.Breeze:
+            return IMGLYBreezeFilter()
+        case IMGLYFilterType.Orchid:
+            return IMGLYOrchidFilter()
+        case IMGLYFilterType.Chest:
+            return IMGLYChestFilter()
+        case IMGLYFilterType.Front:
+            return IMGLYFrontFilter()
+        case IMGLYFilterType.Fixie:
+            return IMGLYFixieFilter()
+        case IMGLYFilterType.X400:
+            return IMGLYX400Filter()
+        case IMGLYFilterType.BW:
+            return IMGLYBWFilter()
+        case IMGLYFilterType.AD1920:
+            return IMGLYAD1920Filter()
+        case IMGLYFilterType.Lenin:
+            return IMGLYLeninFilter()
+        case IMGLYFilterType.Quozi:
+            return IMGLYQuoziFilter()
+        case IMGLYFilterType.Pola669:
+            return IMGLYPola669Filter()
+        case IMGLYFilterType.PolaSX:
+            return IMGLYPolaSXFilter()
+        case IMGLYFilterType.Food:
+            return IMGLYFoodFilter()
+        case IMGLYFilterType.Glam:
+            return IMGLYGlamFilter()
+        case IMGLYFilterType.Celsius:
+            return IMGLYCelsiusFilter()
+        case IMGLYFilterType.Texas:
+            return IMGLYTexasFilter()
+        case IMGLYFilterType.Lomo:
+            return IMGLYLomoFilter()
+        case IMGLYFilterType.Goblin:
+            return IMGLYGoblinFilter()
+        case IMGLYFilterType.Sin:
+            return IMGLYSinFilter()
+        case IMGLYFilterType.Mellow:
+            return IMGLYMellowFilter()
+        case IMGLYFilterType.Sunny:
+            return IMGLYSunnyFilter()
+        case IMGLYFilterType.A15:
+            return IMGLYA15Filter()
+        case IMGLYFilterType.Soft:
+            return IMGLYSoftFilter()
+        case IMGLYFilterType.Blues:
+            return IMGLYBluesFilter()
+        case IMGLYFilterType.Elder:
+            return IMGLYElderFilter()
+        case IMGLYFilterType.Sunset:
+            return IMGLYSunsetFilter()
+        case IMGLYFilterType.Evening:
+            return IMGLYEveningFilter()
+        case IMGLYFilterType.Steel:
+            return IMGLYSteelFilter()
+        case IMGLYFilterType.Seventies:
+            return IMGLYSeventiesFilter()
+        case IMGLYFilterType.HighContrast:
+            return IMGLYHighContrastFilter()
+        case IMGLYFilterType.BlueShadows:
+            return IMGLYBlueShadowsFilter()
+        case IMGLYFilterType.Highcarb:
+            return IMGLYHighcarbFilter()
+        case IMGLYFilterType.Eighties:
+            return IMGLYEightiesFilter()
+        case IMGLYFilterType.Colorful:
+            return IMGLYColorfulFilter()
+        case IMGLYFilterType.Lomo100:
+            return IMGLYLomo100Filter()
+        case IMGLYFilterType.Pro400:
+            return IMGLYPro400Filter()
+        case IMGLYFilterType.Twilight:
+            return IMGLYTwilightFilter()
+        case IMGLYFilterType.CottonCandy:
+            return IMGLYCottonCandyFilter()
+        case IMGLYFilterType.Mono3200:
+            return IMGLYMono3200Filter()
+        case IMGLYFilterType.BlissfulBlue:
+            return IMGLYBlissfulBlueFilter()
+        case IMGLYFilterType.Pale:
+            return IMGLYPaleFilter()
+        case IMGLYFilterType.Settled:
+            return IMGLYSettledFilter()
+        case IMGLYFilterType.Cool:
+            return IMGLYCoolFilter()
+        case IMGLYFilterType.Litho:
+            return IMGLYLithoFilter()
+        case IMGLYFilterType.Prelude:
+            return IMGLYPreludeFilter()
+        case IMGLYFilterType.Nepal:
+            return IMGLYNepalFilter()
+        case IMGLYFilterType.Ancient:
+            return IMGLYAncientFilter()
+        case IMGLYFilterType.Pitched:
+            return IMGLYPitchedFilter()
+        case IMGLYFilterType.Lucid:
+            return IMGLYLucidFilter()
+        case IMGLYFilterType.Creamy:
+            return IMGLYCreamyFilter()
+        case IMGLYFilterType.Keen:
+            return IMGLYKeenFilter()
+        case IMGLYFilterType.Tender:
+            return IMGLYTenderFilter()
+        case IMGLYFilterType.Bleached:
+            return IMGLYBleachedFilter()
+        case IMGLYFilterType.BleachedBlue:
+            return IMGLYBleachedBlueFilter()
+        case IMGLYFilterType.Fall:
+            return IMGLYFallFilter()
+        case IMGLYFilterType.Winter:
+            return IMGLYWinterFilter()
+        case IMGLYFilterType.SepiaHigh:
+            return IMGLYSepiaHighFilter()
+        case IMGLYFilterType.Summer:
+            return IMGLYSummerFilter()
+        case IMGLYFilterType.Classic:
+            return IMGLYClassicFilter()
+        case IMGLYFilterType.NoGreen:
+            return IMGLYNoGreenFilter()
+        case IMGLYFilterType.Neat:
+            return IMGLYNeatFilter()
+        case IMGLYFilterType.Plate:
+            return IMGLYPlateFilter()
+            
+            //not needed!
+        default:
+            return IMGLYPlateFilter()
+>>>>>>> updated filter image processed, updated filters names, method handlers
         }
     }
     
@@ -165,6 +314,7 @@ public class IMGLYInstanceFactory {
         return [
             .None,
             
+<<<<<<< HEAD
             .AntoineVeglas,
             .PeterBrewBevan,
             .Bright,
@@ -179,6 +329,39 @@ public class IMGLYInstanceFactory {
             .IgorFainstein,
             .JamesBedford,
             .Jumiah,
+=======
+            //Doppeltime filters
+            .AntoineVeglas,
+            .IgorFainstein,
+            .Jumiah,
+            .DavidBismuth,
+            .ChrisDavis,
+            .NickHayes,
+            
+            
+            //custom filters
+            .K1,
+            .K2,
+            .K6,
+            .KDynamic,
+            .Fridge,
+            .Breeze,
+            .Orchid,
+            .Chest,
+            .Front,
+            .Fixie,
+            .X400,
+            .BW,
+            .AD1920,
+            .Lenin,
+            .Quozi,
+            .Pola669,
+            .PolaSX,
+            .Food,
+            .Glam,
+            .Celsius,
+            .Texas,
+>>>>>>> updated filter image processed, updated filters names, method handlers
             .Lomo,
             .NickHayes,
             .RaexMurillo,

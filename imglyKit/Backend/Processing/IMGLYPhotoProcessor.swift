@@ -30,13 +30,47 @@ All types of response-filters.
     Sepia,
     Lomo,
     Highcarb,
+<<<<<<< HEAD
 
+=======
+    Eighties,
+    Colorful,
+    Lomo100,
+    Pro400,
+    Twilight,
+    CottonCandy,
+    Mono3200,
+    BlissfulBlue,
+    Pale,
+    Settled,
+    Cool,
+    Litho,
+    Prelude,
+    Nepal,
+    Ancient,
+    Pitched,
+    Lucid,
+    Creamy,
+    Keen,
+    Tender,
+    Bleached,
+    BleachedBlue,
+    Fall,
+    Winter,
+    SepiaHigh,
+    Summer,
+    Classic,
+    NoGreen,
+    Neat,
+    Plate,
+>>>>>>> updated filter image processed, updated filters names, method handlers
     //custom Doppel filters
     AntoineVeglas,
     IgorFainstein,
     Jumiah,
     DavidBismuth,
     ChrisDavis,
+<<<<<<< HEAD
     ChrisCuffaro,
     NickHayes,
     GregWilliams,
@@ -49,6 +83,9 @@ All types of response-filters.
     EmmaJane,
     RaexMurillo,
     TonyMott
+=======
+    NickHayes
+>>>>>>> updated filter image processed, updated filters names, method handlers
 }
 
 public class IMGLYPhotoProcessor {
