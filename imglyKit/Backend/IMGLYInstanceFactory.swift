@@ -377,6 +377,19 @@ public class IMGLYInstanceFactory {
             
 
             .Plate
+            //custom dop filters
+            .Vintage1,
+            .Vintage2,
+            .Vintage3,
+            .CoolLight,
+            .Warm,
+            .Bright,
+            .Cosy,
+            .Sepia,
+            .Lomo
+
+            //.K1,
+            //.Plate
         ]
     }
     
