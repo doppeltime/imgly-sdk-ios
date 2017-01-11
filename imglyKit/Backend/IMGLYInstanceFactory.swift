@@ -24,10 +24,6 @@ public class IMGLYInstanceFactory {
         switch(type) {
         case .None:
             return IMGLYNoneFilter()
-<<<<<<< HEAD
-
-=======
->>>>>>> updated filter image processed, updated filters names, method handlers
             
             //DoppelTime filters
         case IMGLYFilterType.AntoineVeglas:
@@ -40,7 +36,6 @@ public class IMGLYInstanceFactory {
             return DavidBismuth()
         case IMGLYFilterType.ChrisDavis:
             return ChrisDavis()
-<<<<<<< HEAD
         case IMGLYFilterType.ChrisCuffaro:
             return ChrisCuffaro()
         case IMGLYFilterType.NickHayes:
@@ -87,14 +82,8 @@ public class IMGLYInstanceFactory {
             
         case IMGLYFilterType.Lomo:
             return DOPLomo() 
-
-
-
-            //not needed!
-        default:
-            return IMGLYNoneFilter()
-
-=======
+ 
+ 
         case IMGLYFilterType.NickHayes:
             return NickHayes()
         case IMGLYFilterType.GregWilliams:
@@ -242,10 +231,14 @@ public class IMGLYInstanceFactory {
         case IMGLYFilterType.Plate:
             return IMGLYPlateFilter()
             
-            //not needed!
+//            not needed!
+//        default:
+//            return IMGLYPlateFilter()
+            
+        //not needed!
         default:
-            return IMGLYPlateFilter()
->>>>>>> updated filter image processed, updated filters names, method handlers
+            return IMGLYNoneFilter()
+            
         }
     }
     
@@ -321,7 +314,6 @@ public class IMGLYInstanceFactory {
         return [
             .None,
             
-<<<<<<< HEAD
             .AntoineVeglas,
             .PeterBrewBevan,
             .Bright,
@@ -336,7 +328,7 @@ public class IMGLYInstanceFactory {
             .IgorFainstein,
             .JamesBedford,
             .Jumiah,
-=======
+
             //Doppeltime filters
             .AntoineVeglas,
             .IgorFainstein,
@@ -348,7 +340,7 @@ public class IMGLYInstanceFactory {
             .AllenHenson,
             .HarethTayem,
             
-            
+            //
             //custom filters
             .K1,
             .K2,
@@ -371,7 +363,6 @@ public class IMGLYInstanceFactory {
             .Glam,
             .Celsius,
             .Texas,
->>>>>>> updated filter image processed, updated filters names, method handlers
             .Lomo,
             .NickHayes,
             .RaexMurillo,
@@ -385,6 +376,7 @@ public class IMGLYInstanceFactory {
             .Warm
             
 
+            .Plate
         ]
     }
     
