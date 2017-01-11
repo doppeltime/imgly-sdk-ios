@@ -40,3 +40,4 @@ push changes to GIT
 
 update doppel time pods project [get changes from GIT custom branch]
 [on Doppeltime project root path] $update pod
+

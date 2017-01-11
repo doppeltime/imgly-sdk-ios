@@ -99,6 +99,12 @@ public class IMGLYInstanceFactory {
             return NickHayes()
         case IMGLYFilterType.GregWilliams:
             return GregWilliams()
+        case IMGLYFilterType.AllenHenson:
+            return AllenHenson()
+        case IMGLYFilterType.HarethTayem:
+            return HarethTayem()
+
+
  
             //default filters
         case IMGLYFilterType.K1:
@@ -339,6 +345,8 @@ public class IMGLYInstanceFactory {
             .ChrisDavis,
             .NickHayes,
             .GregWilliams,
+            .AllenHenson,
+            .HarethTayem,
             
             
             //custom filters
