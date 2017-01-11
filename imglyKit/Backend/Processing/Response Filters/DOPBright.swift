@@ -15,7 +15,7 @@ public class DOPBright : IMGLYResponseFilter{
         self.imgly_displayName = "Bright \n"
     }
     
-    required public init?(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     

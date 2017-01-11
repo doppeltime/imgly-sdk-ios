@@ -15,7 +15,7 @@ public class DOPLomo : IMGLYResponseFilter{
         self.imgly_displayName = "Lomo \n"
     }
     
-    required public init?(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     

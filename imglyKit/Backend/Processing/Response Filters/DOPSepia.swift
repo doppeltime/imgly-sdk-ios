@@ -15,7 +15,7 @@ public class DOPSepia : IMGLYResponseFilter{
         self.imgly_displayName = "Sepia \n"
     }
     
-    required public init?(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     

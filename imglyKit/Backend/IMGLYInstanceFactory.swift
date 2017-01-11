@@ -79,7 +79,6 @@ public class IMGLYInstanceFactory {
         case IMGLYFilterType.Sepia:
             return DOPSepia()
  
-            
         case IMGLYFilterType.Lomo:
             return DOPLomo() 
  
@@ -101,6 +100,9 @@ public class IMGLYInstanceFactory {
         case IMGLYFilterType.Vintage3:
             return DOPvintage3()            
 
+            return DOPSepia() 
+        case IMGLYFilterType.Lomo:
+            return DOPLomo() 
 
         default:
             return IMGLYNoneFilter()
