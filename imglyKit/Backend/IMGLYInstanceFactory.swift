@@ -104,7 +104,7 @@ public class IMGLYInstanceFactory {
         //not needed!
         default:
             return IMGLYNoneFilter()
-            
+
         }
     }
     
